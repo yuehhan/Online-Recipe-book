@@ -4,10 +4,8 @@ import './App.css';
 require('dotenv').config();
 
 const App = () => {
-    const APP_ID = process.env.API_ID;
-    const APP_KEY = process.env.API_KEY;
-    // const APP_ID = '760308da';
-    // const APP_KEY = '057d0c61ecd89353ea21348b43b6d7d3';
+    const APP_ID = '760308da';
+    const APP_KEY = '057d0c61ecd89353ea21348b43b6d7d3';
   // const  exampleReq = `https://api.edamam.com/search?q=chicken&app_id=${APP_ID}&app_key=${APP_KEY}`;
 
 
